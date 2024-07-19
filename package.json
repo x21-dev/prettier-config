@@ -1,0 +1,29 @@
+{
+  "name": "@generalintelligence/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "format": "npx prettier . --write",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "General Intelligence Technologies",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x21-dev/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/x21-dev/prettier-config/issues"
+  },
+  "homepage": "https://github.com/x21-dev/prettier-config#readme",
+  "devDependencies": {
+    "husky": "^9.1.1",
+    "prettier": "^3.3.3"
+  }
+}
