@@ -20,6 +20,7 @@ npm i prettier @generalintelligence/prettier-config
     "format": "prettier --ignore-path ./node_modules/@generalintelligence/prettier-config/.prettierignore . --write"
   }
 }
+```
 
 3. Install `husky` and add a pre-commit hook to run the formatter:
 

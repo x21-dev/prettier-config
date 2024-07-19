@@ -1,6 +1,6 @@
 {
   "name": "@generalintelligence/prettier-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shared Prettier configuration",
   "main": ".prettierrc.js",
   "scripts": {
