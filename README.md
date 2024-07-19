@@ -33,3 +33,7 @@ Then open `./husky/pre-commit` and add:
 ```
 npm run format
 ```
+
+That's it. The next time you make a commit, your code should be automatically formatted via this prettier config!
+
+> We also recommend installing the official [Prettier VS Code plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and enabling the "editor.formatOnSave" setting if you are using VS Code.
