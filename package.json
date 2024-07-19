@@ -1,0 +1,21 @@
+{
+  "name": "@generalintelligence/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "format": "npx prettier . --write",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "General Intelligence Technologies",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "husky": "^9.1.1",
+    "prettier": "^3.3.3"
+  }
+}
